@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mychatapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/MyChatApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyChatAppTutorial">
+        <activity android:name="com.example.mychatapp.specificchat"></activity>
+        <activity android:name="com.example.mychatapp.UpdateProfile" />
+        <activity android:name="com.example.mychatapp.ProfileActivity" />
+        <activity android:name="com.example.mychatapp.chatActivity" />
+        <activity android:name="com.example.mychatapp.setProfile" />
+        <activity android:name="com.example.mychatapp.otpAuthentication" />
+        <activity android:name="com.example.mychatapp.MainActivity" />
+        <activity android:name="com.example.mychatapp.splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
